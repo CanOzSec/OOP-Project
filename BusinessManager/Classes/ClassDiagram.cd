@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BusinessManager.Classes.Employee">
+    <Position X="12.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAAAAAAAAsAAQAEAAQAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessManager.Classes.ResearchEmployee">
+    <Position X="12" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessManager.Classes.MarketingEmployee">
+    <Position X="15.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAQAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessManager.Classes.HumanResourcesEmployee">
+    <Position X="8" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Classes\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessManager.Classes.FinanceEmployee">
+    <Position X="13.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessManager.Classes.OperationsEmployee">
+    <Position X="17.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessManager.Classes.InformationTechnologyEmployee">
+    <Position X="10" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Classes\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessManager.Classes.Common">
+    <Position X="20.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAAAAgAAAAAAAAAAQIAAAAABQAAAEAAAAAAAA=</HashCode>
+      <FileName>Classes\ProjectManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessManager.Classes.Project">
+    <Position X="19.5" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="BusinessManager.Classes.Common" FixedToPoint="true">
+      <Path>
+        <Point X="21.5" Y="3.45" />
+        <Point X="21.5" Y="3.875" />
+        <Point X="20.125" Y="3.875" />
+        <Point X="20.125" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Classes\ProjectManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessManager.Classes.Task">
+    <Position X="22" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="BusinessManager.Classes.Common" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="21.5" Y="3.45" />
+        <Point X="21.5" Y="3.875" />
+        <Point X="22.75" Y="3.875" />
+        <Point X="22.75" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Classes\ProjectManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="BusinessManager.Classes.Level">
+    <Position X="22.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Classes\ProjectManagement.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
